@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "luminamods",
+  "version": "${version}",
+  "name": "LuminaMods",
+  "description": "Sounds, HUD, hitboxes, profiles. Open with O. Discord: dc.gg/luminamods",
+  "authors": ["k4cperts"],
+  "contact": { "homepage": "https://dc.gg/luminamods" },
+  "environment": "client",
+  "entrypoints": { "client": ["com.luminamods.LuminaClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
